@@ -22,43 +22,44 @@ apiRouter.post('/sign', bodyParser(), function *() {
         this.body = {
             message: '"pKey" should be string'
         };
-    }
-
-    if (!requestBody) {
-        this.status = 400;
-        this.body = {
-            message: '"requestBody" required object'
-        };
         return;
     }
 
-    if (typeof requestBody !== 'object') {
-        this.status = 400;
-        this.body = {
-            message: '"requestBody" should be an object'
-        };
-    }
+    if (requestBody || requestRawBody) {
+        if (!requestRawBody && !requestBody) {
+            this.status = 400;
+            this.body = {
+                message: '"requestBody" required object'
+            };
+            return;
+        }
 
-    if (!requestRawBody) {
+        if (requestRawBody) {
+            if (typeof requestRawBody !== 'string') {
+                this.status = 400;
+                this.body = {
+                    message: '"requestRawBody" should be string'
+                };
+                return;
+            }
+        }
+
+        if (requestBody) {
+            if (typeof requestBody !== 'object') {
+                this.status = 400;
+                this.body = {
+                    message: '"requestBody" should be an object'
+                };
+                return;
+            }
+        }
+
+    } else {
         this.status = 400;
         this.body = {
-            message: '"requestRawBody" required object'
+            message: '"requestBody" or "requestRawBody" should be specified'
         };
         return;
-    }
-
-    if (typeof requestRawBody !== 'object') {
-        this.status = 400;
-        this.body = {
-            message: '"requestRawBody" should be an object'
-        };
-    }
-
-    if (requestRawBody && requestBody) {
-        this.status = 400;
-        this.body = {
-            message: 'Only one "requestBody" or "requestRawBody" should be specified'
-        };
     }
 
     requestBody = requestBody || requestRawBody;
