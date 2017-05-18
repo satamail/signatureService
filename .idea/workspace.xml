@@ -1,0 +1,2281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="10" />
+    <option name="FILE_MASK" value="update.js" />
+  </component>
+  <component name="ChangeListManager">
+    <list id="cb0e94eb-7be8-4bf9-a133-f8c3c231b0d7" name="Default" comment="[*] Replace array check" />
+    <list id="23ff4ea4-c755-4c78-be7f-4067c76fb0cf" name="Rejected commit: Default" comment="[+] Add sepa regular and recurrent pay unit tests&#10;[!] Fix bugs in some tests, related to master merge" />
+    <list id="59bf6cb6-24fe-4b4b-bf2d-d8117519e9a3" name="[+] Implement integration with wirecard gateway [-] Remove unused psid variable from recurring route (cherry picked from commit aed4496)" comment="[+] Implement integration with wirecard gateway&#10;[-] Remove unused psid variable from recurring route&#10;(cherry picked from commit aed4496)" />
+    <list default="true" id="6630c9d7-93e7-46fc-b4a5-63c4fc1f3ee9" name="New changelist" comment="PAYMENT-1418-1:&#10;Fix voucher apply process">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.env.example" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/api/checkout/bankdetails/validate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/api/checkout/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/api/checkout/pay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/api/checkout/voucher/get.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/api/checkout/wirecard/initStorage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/api/orders/callback.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/api/orders/recurrent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/api/orders/refund.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/api/orders/refundByProducts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/api/products/add.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/api/products/details.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/api/products/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/api/sdk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/api/selfCare/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/api/selfCare/paymentHistory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/api/selfCare/psys/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/api/selfCare/psys/markPreferred.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/api/selfCare/psys/remove.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/api/selfCare/subscription/buy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/api/selfCare/subscription/changePaymentMethod.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/api/selfCare/subscription/changeRule.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/api/selfCare/subscription/getRules.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/api/selfCare/subscription/paymentMethods.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/api/users/inventory/has.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/api/users/inventory/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/api/voucher/use.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/authCallback.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/checkout/adyen/encryptionLibrary.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/checkout/complete.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/checkout/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/checkout/pay/adyen/creditCard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/checkout/pay/voucher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/checkout/pay/wirecard/creditCard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/checkout/pay/wirecard/paypayl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/checkout/pay/wirecard/sepa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/checkout/paypal/fail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/checkout/paypal/success.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/checkout/paysafe/fail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/checkout/paysafe/success.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/checkout/start.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/checkout/wirecard/creditCard/complete.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/checkout/wirecard/paypal/fail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/checkout/wirecard/paypal/success.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/checkout/wirecard/sepa/complete.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/debug/magento.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/debug/payone.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/email.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/reCaptcha.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/reCaptchaSitekey.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/sdk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/sdk/voucher/consume.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/selfCare/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/selfCare/renew.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/selfCare/start.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/sessionExpired.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/voucher/get.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/voucher/getCampaignPrice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/voucher/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/voucher/start.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/actions/voucher/token.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/api/api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/middleware/apiToken.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/middleware/expiredSession.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/middleware/params.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/middleware/paypal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/middleware/paysafe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/middleware/psys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/middleware/render.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/middleware/sdkToken.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/middleware/wirecard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/adyen/factory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/factory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/helper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/paySafe/factory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/paypal/factory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/adyen/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/adyen/pay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/adyen/recurrent/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/adyen/recurrent/pay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/adyen/regular/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/adyen/regular/pay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/adyen/regular/validation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/adyen/result.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/order.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/paySafe/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/paySafe/pay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/paySafe/result.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/paypal/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/paypal/pay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/paypal/recurrent/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/paypal/recurrent/pay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/paypal/recurrent/result.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/paypal/regular/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/paypal/regular/pay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/paypal/regular/result.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/remember.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/validation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/voucher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/wirecard/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/wirecard/pay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/wirecard/recurrent/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/wirecard/recurrent/pay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/wirecard/recurrent/result.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/wirecard/recurrent/sepa/pay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/wirecard/regular/creditCard/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/wirecard/regular/creditCard/order.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/wirecard/regular/creditCard/pay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/wirecard/regular/creditCard/remember.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/wirecard/regular/creditCard/validation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/wirecard/regular/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/wirecard/regular/pay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/wirecard/regular/payPal/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/wirecard/regular/payPal/pay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/wirecard/regular/result.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/wirecard/regular/sepa/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/wirecard/regular/sepa/pay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/wirecard/regular/sepa/remember.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/wirecard/regular/sepa/result.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/steps/wirecard/regular/sepa/validation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/pay/wirecard/factory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/payment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/psys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/services/token.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/test/actions/api/bankdetails/validate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/test/actions/api/checkout/voucher/get.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/test/actions/api/orders/callback.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/test/actions/api/orders/debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/test/actions/api/orders/recurrent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/test/actions/api/orders/refund.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/test/actions/api/orders/refundByProducts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/test/actions/api/products/details.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/test/actions/api/voucher/get.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/test/actions/api/voucher/getCampaignPrice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/test/workers/order/remember.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_deprecated/workers/order/rememberPsys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/api/accounting/event.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/api/bfs/preCheckCustomer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/api/billpay/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/api/delayed/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/api/orders/details.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/api/orders/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/api/payment/authorize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/api/payment/cancel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/api/payment/capture.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/api/payment/delayed/cancel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/api/payment/delayed/schedule.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/api/payment/methods.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/api/payment/oneClick.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/api/payment/recurring.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/api/payment/refund.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/api/payone/creditCard/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/api/subscription/close.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/api/subscription/cycles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/api/subscription/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/api/subscription/renew.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/api/subscription/update.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/api/version.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/api/wirecard/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/internal/access/create.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/internal/access/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/internal/access/remove.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/internal/access/update.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/internal/orders/list-download.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/internal/orders/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/internal/orders/notifications/debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/internal/payment/callback.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/internal/payment/details.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/internal/report/transaction/capture.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/internal/report/transaction/failedPayments.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/internal/report/transaction/paymentMethods.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/internal/report/transaction/payments.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/internal/report/transaction/refund.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/internal/report/transition/custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/internal/report/transition/download.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/internal/report/transition/entity.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/internal/report/transition/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/internal/settlement/warning/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/internal/voucher/check.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/internal/voucher/revive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/check/address.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/check/risk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/invoice/create.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/invoice/download.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/invoice/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/paymentMethod/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/paymentMethod/remove.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/paymentMethod/update.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/products/get.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/products/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/user/register.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/userInventory/addItem.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/userInventory/removeItem.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/userInventory/startItem.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/userInventory/userHasProducts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/userInventory/userInventory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/virtualAccount/create.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/virtualAccount/definition/create.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/virtualAccount/definition/delete.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/virtualAccount/definition/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/virtualAccount/definition/makeDefault.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/virtualAccount/definition/update.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/virtualAccount/entries.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/virtualAccount/update.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/virtualWallet/create.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/virtualWallet/deposit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/virtualWallet/load.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/virtualWallet/purchase.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/virtualWallet/transaction/cancel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/virtualWallet/transaction/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/voucher/burn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/voucher/check.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/sdk/voucher/revive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/task.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/internal_api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/7pay_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/tick.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/checkout.ejs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/complete.ejs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/sdk/7pay-sdk.ejs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/sdk/CSE-JS/adyen.enrypt.nodom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/sdk/helpers/api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/sdk/helpers/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/sdk/helpers/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/selfCare.ejs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/sessionExpired.ejs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/app-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/app-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/app-run.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/app.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/adyen/adyen-factory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/adyen/adyen-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/brand/brand-directive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/brand/brand-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/brand/brand-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/brand/brand.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/button-block/button-block-directive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/button-block/button-block-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/button-block/button-block-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/heading/heading-directive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/heading/heading-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/heading/heading-service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/heading/heading-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/heading/heading.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/list-collapse/list-collapse-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/list-collapse/list-collapse-directive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/list-collapse/list-collapse-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/list-collapse/list-collapse-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/list-collapse/list-collapse.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/notification/notification-directive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/notification/notification-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/notification/notification-service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/notification/notification-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/notification/notification.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/adyen-credit-card/controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/adyen-credit-card/input-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/adyen-credit-card/one-click-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/adyen-credit-card/short-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/adyen-credit-card/style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/adyen-credit-card/summary-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/pay-safe/controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/pay-safe/input-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/pay-safe/one-click-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/pay-safe/short-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/pay-safe/style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/pay-safe/summary-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/payment-filter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/payment-service-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/payment-service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/paymnet-service.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/paypay-direct/controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/paypay-direct/input-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/paypay-direct/one-click-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/paypay-direct/short-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/paypay-direct/style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/paypay-direct/summary-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/voucher/controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/voucher/input-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/voucher/one-click-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/voucher/short-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/voucher/style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/voucher/summary-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/wirecard-credit-card/controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/wirecard-credit-card/input-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/wirecard-credit-card/one-click-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/wirecard-credit-card/short-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/wirecard-credit-card/style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/wirecard-credit-card/summary-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/wirecard-paypal/controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/wirecard-paypal/input-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/wirecard-paypal/one-click-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/wirecard-paypal/short-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/wirecard-paypal/style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/wirecard-paypal/summary-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/wirecard-sepa/controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/wirecard-sepa/input-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/wirecard-sepa/one-click-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/wirecard-sepa/short-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/wirecard-sepa/style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/payment-service/wirecard-sepa/summary-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/preferred-method/preferred-method-directive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/preferred-method/preferred-method-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/preferred-method/preferred-method-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/preferred-method/preferred-method.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/product-list/product-list-directive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/product-list/product-list-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/product-list/product-list-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/product-list/product-list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/request/api-helper-service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/request/request-interceptor-factory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/request/request-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/voucher-badge/voucher-badge-directive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/voucher-badge/voucher-badge-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/voucher-badge/voucher-badge-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/voucher-badge/voucher-badge.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/voucher-service/voucher-service-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/component/voucher-service/voucher-service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/config.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/config/app-constant-config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/config/config-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/config/state-constant-config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/section/init/init-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/section/init/init-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/section/payment-methods/payment-methods-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/section/payment-methods/payment-methods-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/section/payment-methods/payment-methods-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/section/payment-methods/payment-methods.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/section/payment/payment-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/section/payment/payment-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/section/payment/payment-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/section/payment/payment.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/section/start/start-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/section/start/start-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/section/start/start-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/section/start/start.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/section/summary/summary-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/section/summary/summary-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/section/summary/summary-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/section/summary/summary.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/section/voucher/voucher-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/section/voucher/voucher-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/section/voucher/voucher-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/section/voucher/voucher.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout-v2/vendors/jQueryFactory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/app-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/app-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/app-run.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/app.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/components/order-summary/order-summary-directive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/components/order-summary/order-summary-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/config/config-api-constant.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/config/config-app-constant.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/config/config-events-constant.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/config/config-messages-constant.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/config/config-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/config/config-state-constant.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/ctrls/adyen/credit-card.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/ctrls/adyen/saved/credit-card.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/ctrls/paypal/ctrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/ctrls/paypal/savedCtrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/ctrls/paysafe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/ctrls/voucher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/ctrls/wirecard/credit-card.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/ctrls/wirecard/paypal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/ctrls/wirecard/saved/credit-card.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/ctrls/wirecard/saved/paypal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/ctrls/wirecard/saved/sepa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/ctrls/wirecard/sepa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/directives/review.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/section/main/main-action-buttons-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/section/main/main-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/section/main/main-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/section/main/main-order-summary-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/section/main/main-payment-information-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/section/main/main-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/section/main/main.768.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/section/main/main.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/services/adyen-service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/services/checkout.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/tpls/paymethods/adyen/credit-card/review.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/tpls/paymethods/adyen/credit-card/saved/review.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/tpls/paymethods/adyen/credit-card/saved/tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/tpls/paymethods/adyen/credit-card/tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/tpls/paymethods/blank/review.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/tpls/paymethods/paypal/review.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/tpls/paymethods/paypal/saved/review.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/tpls/paymethods/paypal/saved/tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/tpls/paymethods/paypal/tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/tpls/paymethods/paysafe/review.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/tpls/paymethods/paysafe/tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/tpls/paymethods/voucher/style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/tpls/paymethods/voucher/tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/tpls/paymethods/wirecard/credit-card/review.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/tpls/paymethods/wirecard/credit-card/saved/review.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/tpls/paymethods/wirecard/credit-card/saved/tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/tpls/paymethods/wirecard/credit-card/tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/tpls/paymethods/wirecard/paypal/review.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/tpls/paymethods/wirecard/paypal/saved/review.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/tpls/paymethods/wirecard/paypal/saved/tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/tpls/paymethods/wirecard/paypal/tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/tpls/paymethods/wirecard/sepa/review.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/tpls/paymethods/wirecard/sepa/saved/review.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/tpls/paymethods/wirecard/sepa/saved/tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/checkout/tpls/paymethods/wirecard/sepa/tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/app-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/app.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/base/app-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/base/app.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/base/directives/confirmBox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/base/directives/download.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/base/directives/dynamic-template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/base/directives/dynamicHeight.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/base/directives/formValidate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/base/directives/loading.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/base/directives/spinLoading.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/base/directives/validation/customName.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/base/directives/validation/iban.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/base/directives/version.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/base/services/api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/base/tpls/directives/confirmBox.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/base/tpls/service-version.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/components/ui/bootstrap.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/components/ui/config.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/components/ui/elements.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/components/ui/fonts.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/components/ui/layouts.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/components/ui/mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/components/ui/placeholders.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/components/version/version-value.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/config/config-core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/listener-stack/listener-stack-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/listener-stack/listener-stack-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/logger/logger-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/logger/logger-service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/pull/pull-factory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/pull/pull-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/rest/rest-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/rest/rest-service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/session/session-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/session/session-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/session/session-permission-directive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/session/session-role-factory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/session/session-service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/core/session/session-store-service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/languages/de-DE/checkout.lang.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/languages/en-US/checkout.lang.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/app-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/app-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/app-run.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/app.640.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/app.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/config/config-api-constant.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/config/config-app-constant.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/config/config-events-constant.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/config/config-messages-constant.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/config/config-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/config/config-session-constant.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/config/config-state-constant.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/directives/scBreadcrumb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/directives/scHeader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/directives/scList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/directives/scToast.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/directives/toggle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/main/main-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/main/main-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/main/main-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/main/main.640.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/main/main.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/payment-history/payment-history-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/payment-history/payment-history-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/payment-history/payment-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/payment-history/style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/payment-methods/adyen/credit-card-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/payment-methods/payment-methods-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/payment-methods/payment-methods-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/payment-methods/payment-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/payment-methods/paypal/view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/payment-methods/style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/payment-methods/wirecard/credit-card-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/payment-methods/wirecard/paypal-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/payment-methods/wirecard/sepa-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/renew/renew-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/renew/renew-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/renew/renew-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/renew/style.640.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/renew/style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/subscription-details/active/ctrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/subscription-details/active/tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/subscription-details/closed/ctrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/subscription-details/closed/tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/subscription-details/style.640.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/subscription-details/style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/subscription-details/subscription-details-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/subscription-details/subscription-details-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/subscription-details/subscription-details-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/subscriptions/subscriptions-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/subscriptions/subscriptions-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/section/subscriptions/subscriptions-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/services/psysService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/services/selfCare.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/services/state.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/tpls/directives/scBreadcrumb.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/tpls/directives/scHeader.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/tpls/directives/scList.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/tpls/directives/scToast.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/utils/utils-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/selfCare/utils/utils-service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/vendors/jQuery/jQuery-factory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/app-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/app-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/app-run.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/app.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/component/re-captcha-helper/re-captcha-helper-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/component/re-captcha-helper/re-captcha-helper-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/component/re-captcha-helper/style.640.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/component/re-captcha-helper/style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/component/virtual-wallet/virtual-wallet-directive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/component/virtual-wallet/virtual-wallet-factory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/component/virtual-wallet/virtual-wallet-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/component/virtual-wallet/virtual-wallet-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/component/virtual-wallet/virtual-wallet.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/component/voucher/style.640.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/component/voucher/style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/component/voucher/voucher-fail-directive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/component/voucher/voucher-fail-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/component/voucher/voucher-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/component/voucher/voucher-success-directive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/component/voucher/voucher-success-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/config/app-constant-config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/config/config-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/config/state-constant-config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/lang/de-DE/voucher.lang.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/lang/en-US/voucher.lang.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/section/voucher-input/voucher-input-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/section/voucher-input/voucher-input-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/section/voucher-input/voucher-input.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/section/voucher-input/voucher-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/section/voucher-notification/voucher-notification-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/section/voucher-notification/voucher-notification-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/section/voucher-notification/voucher-notification-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/section/voucher-redeem/voucher-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/section/voucher-redeem/voucher-redeem-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/section/voucher-redeem/voucher-redeem-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/section/voucher-redeem/voucher-redeem.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/voucher/services/voucher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/voucher.ejs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/wirecard/wirecard.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/consts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/db.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/errors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/pagination.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/resources.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/settings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/debug/jsrsasign-latest-all-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/debug/magento.ejs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/debug/magento.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/debug/payone.ejs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/debug/private.key" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/debug/public.key" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/start.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/notify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/nsq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/requestCache.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/result.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/taskRunner.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/validator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/middleware/access/requestOperation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/middleware/access/sign.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/middleware/access/user.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/middleware/action.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/middleware/actionAttachment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/middleware/actionFile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/middleware/bodyParser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/middleware/entityConfig.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/middleware/handler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/middleware/internalRefund.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/middleware/requestCache.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/middleware/stub.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/access.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/delayedPayment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/order.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/orderHistory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/refund.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/requestOperation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/session.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/settlementWarning.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/transitionReport.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/transitionReportData.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/transitionReportDelayed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/userToken.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-shrinkwrap.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/countries.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/currencies.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/languages.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/accountingReporter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/adyen.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/amazon.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/api/adyen.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/api/amazon.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/api/bankDetails.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/api/bfs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/api/billpay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/api/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/api/encoder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/api/helper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/api/invoice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/api/payone.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/api/paypal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/api/paysafe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/api/product.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/api/psys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/api/subscription.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/api/userInventory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/api/virtualWallet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/api/voucher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/api/wirecard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/bfs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/billpay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/delayedPayment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/invoice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/order.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/orderHistory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/payment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/payment/operation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/paymentMethod.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/payone.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/paypal/express.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/price.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/product.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/proxy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/psys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/psysFactory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/report.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/requestOperation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/sdk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/settlement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/settlement/entityReporter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/settlement/tasks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/sign.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/subscription.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/transition/transitionDelayed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/transition/transitionReport.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/transition/transitionReportConfig.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/user.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/userInventory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/validation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/validators/access.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/validators/report.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/virtualWallet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/voucher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/wirecard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sign.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/delayedPayment/doPayment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/delayedPayment/verifyAuthorization.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/delayedPayment/verifyCapturing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/entitySettlement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/factory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/notifyAccounting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/orderComplete.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/orderGenerateInvoice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/orderNotifier.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/orderProductProvision.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/orderReviveVoucher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/settlementWarning.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/transition/externalTransitionReportData.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/transition/transitionDelayed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/transition/transitionDelayedClean.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/transition/transitionReport.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/transition/transitionReportConfig.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.env" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/api/bfs/preCheckCustomer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/api/billpay/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/api/delayed/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/api/orders/details.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/api/orders/invoices/process.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/api/orders/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/api/payment/authorize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/api/payment/cancel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/api/payment/delayed/cancel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/api/payment/delayed/schedule.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/api/payment/details.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/api/payment/methods.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/api/payment/oneClick.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/api/payment/purchase.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/api/payment/recurring.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/api/payone/creditCard/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/api/version.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/api/wirecard/spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/internal/orders/list-download.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/internal/orders/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/internal/payment/callback.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/internal/report/transaction/capture.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/internal/report/transaction/failedPayments.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/internal/report/transaction/paymentMethods.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/internal/report/transaction/payments.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/internal/report/transaction/refund.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/internal/settlement/warning/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/internal/voucher/check.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/internal/voucher/revive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/addInventoryItem.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/getProducts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/invoice/create.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/invoice/download.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/invoice/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/listProducts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/paymentMethod/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/paymentMethod/remove.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/paymentMethod/update.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/register.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/removeInventoryItem.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/startInventoryItem.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/userHasProducts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/userInventory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/virtualAccount/create.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/virtualAccount/definition/create.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/virtualAccount/definition/delete.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/virtualAccount/definition/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/virtualAccount/definition/makeDefault.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/virtualAccount/definition/update.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/virtualAccount/entries.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/virtualAccount/update.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/virtualWallet/create.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/virtualWallet/deposit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/virtualWallet/load.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/virtualWallet/purchase.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/virtualWallet/transaction/cancel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/virtualWallet/transaction/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/voucher/burn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/voucher/check.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/actions/sdk/voucher/revive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/components/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/e2e/orderNotifications.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/factory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/internalInit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/lib/requestCache.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/models/access.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/services/accountingReporter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/services/adyen.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/services/bfs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/services/order.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/services/payment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/services/payment/operation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/services/paymentMethod.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/services/paypal/express.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/services/settlement/entityReporter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/services/user.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/services/validation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/services/wirecard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/tasks/delayedPayment/doPayment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/tasks/delayedPayment/verifyAuthorization.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/tasks/delayedPayment/verifyCapturing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/tasks/notifyAccounting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/tasks/orderGenerateInvoice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/tasks/orderNotifier.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/tasks/orderProductProvision.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/tasks/orderReviveVoucher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/testUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/utils/nockBuilder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/workers/order/complete.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/workers/order/invoice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/workers/order/provision.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/workers/voucher/resurrect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/worker.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jshintrc" afterPath="$PROJECT_DIR$/.jshintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.nvmrc" afterPath="$PROJECT_DIR$/.nvmrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/api.js" afterPath="$PROJECT_DIR$/api/api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+    </list>
+    <ignored path="7pay-order-service.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="D:\DEV\Projects\7pay\7pay-order-service" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="7pay-order-service" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/api.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Html5" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sched</find>
+      <find>settings</find>
+      <find>Authorization</find>
+      <find>delayed/u</find>
+      <find>orderProvisionPushProducts</find>
+      <find>subsc</find>
+      <find>delivered</find>
+      <find>orderProductProvision</find>
+      <find>api</find>
+      <find>run</find>
+      <find>trans</find>
+      <find>transition</find>
+      <find>adyen</find>
+      <find>request.payment.authorize</find>
+      <find>subs</find>
+      <find>pid</find>
+      <find>jsdom.env</find>
+      <find>jsdom</find>
+      <find>requestOper</find>
+      <find>session</find>
+      <find>auth</find>
+      <find>services/auth</find>
+      <find>for</find>
+      <find>voucher</find>
+      <find>baske</find>
+      <find>a</find>
+      <find>api/subsc</find>
+      <find>exports</find>
+      <find>import\s(\S+)\sfrom\s(.*;)</find>
+      <find>import\s(\S+)\sfrom\s(.*)</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>$1'$2',\n</replace>
+      <replace>'</replace>
+      <replace>delayed</replace>
+      <replace>init.e2e.api.payment.delayed</replace>
+      <replace>let</replace>
+      <replace>internalInit.spyOn('services/delayedPayment'</replace>
+      <replace>.</replace>
+      <replace>init.e2e.api.payment.delayed.schedule</replace>
+      <replace>request.payment.delayed.schedule.adyen</replace>
+      <replace>paymentAttemptsCount</replace>
+      <replace>Max</replace>
+      <replace>$1 delete $2;</replace>
+      <replace>Parent order authorization</replace>
+      <replace>orderProductProvision</replace>
+      <replace>const $1 = require($2)</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\01. DEV\01. Projects\01. 7pay\02. 7-pay-order-service\02. src\tasks</dir>
+      <dir>D:\01. DEV\01. Projects\01. 7pay\02. 7-pay-order-service\02. src\services</dir>
+      <dir>D:\01. DEV\01. Projects\01. 7pay\02. 7-pay-order-service\02. src\test\tasks</dir>
+      <dir>D:\01. DEV\01. Projects\01. 7pay\02. 7-pay-order-service\02. src</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="SHOW_REMOTE_BRANCHES" value="true" />
+    <option name="ONTO" value="refs/remotes/origin/master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Ihar Kryvonos &lt;Ihar_Kryvonos@epam.com&gt;" />
+        <option value="Mikalai Sauchanka &lt;mikalai_sauchanka@epam.com&gt;" />
+        <option value="Dan Harabagiu &lt;harabagiu.dan@gmail.com&gt;" />
+        <option value="olegg &lt;olegg.net@gmail.com&gt;" />
+        <option value="andrei-karalionak &lt;andrei_karalionak@epam.com&gt;" />
+      </list>
+    </option>
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RESET_MODE" value="HARD" />
+    <option name="FORCE_PUSH_ALLOWED" value="true" />
+    <push-targets>
+      <push-target-info repo="$PROJECT_DIR$" source="sprint15_selfCare_saved_payment_ui" target-remote="origin" target-branch="sprint15_selfCare_saved_payment_ui" />
+      <push-target-info repo="$PROJECT_DIR$" source="484_impl_of_magento_pay_flow" target-remote="origin" target-branch="magento_integration" />
+      <push-target-info repo="$PROJECT_DIR$" source="482_484_impl_of_magento_callback_flow" target-remote="origin" target-branch="magento_integration" />
+    </push-targets>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/actions/api/payment/delayed.js" />
+        <option value="$PROJECT_DIR$/tasks/delayedPayment/verifyOrder.js" />
+        <option value="$PROJECT_DIR$/actions/api/delayed/delayed.js" />
+        <option value="$PROJECT_DIR$/actions/api/delayed/cancel.js" />
+        <option value="$PROJECT_DIR$/test/services/payment.js" />
+        <option value="$PROJECT_DIR$/services/wirecard.js" />
+        <option value="$PROJECT_DIR$/middleware/access/user.js" />
+        <option value="$PROJECT_DIR$/services/payment/operation.js" />
+        <option value="$PROJECT_DIR$/models/order.js" />
+        <option value="$PROJECT_DIR$/test/tasks/delayed/verifyAuthorization.js" />
+        <option value="$PROJECT_DIR$/services/adyen.js" />
+        <option value="$PROJECT_DIR$/test/actions/api/payment/delayed.js" />
+        <option value="$PROJECT_DIR$/services/paypal/express.js" />
+        <option value="$PROJECT_DIR$/test/tasks/delayedPayment/verifyAuthorization.js" />
+        <option value="$PROJECT_DIR$/actions/api/orders/list.js" />
+        <option value="$PROJECT_DIR$/actions/api/delayed/update.js" />
+        <option value="$PROJECT_DIR$/test/testUtils.js" />
+        <option value="$PROJECT_DIR$/test/actions/api/delayed/list.js" />
+        <option value="$PROJECT_DIR$/test/factory.js" />
+        <option value="$PROJECT_DIR$/tasks/delayedPayment/verifyCapturing.js" />
+        <option value="$PROJECT_DIR$/test/actions/api/payment/delayed/cancel.js" />
+        <option value="$PROJECT_DIR$/test/tasks/delayedPayment/doPayment.js" />
+        <option value="$PROJECT_DIR$/test/tasks/delayedPayment/verifyCapturing.js" />
+        <option value="$PROJECT_DIR$/tasks/delayedPayment/verifyAuthorization.js" />
+        <option value="$PROJECT_DIR$/tasks/delayedPayment/doPayment.js" />
+        <option value="$PROJECT_DIR$/actions/api/delayed/list.js" />
+        <option value="$PROJECT_DIR$/actions/api/payment/delayed/cancel.js" />
+        <option value="$PROJECT_DIR$/services/delayedPayment.js" />
+        <option value="$PROJECT_DIR$/test/tasks/orderProvisionPush.js" />
+        <option value="$PROJECT_DIR$/actions/api/subscription/renew.js" />
+        <option value="$PROJECT_DIR$/components/consts.js" />
+        <option value="$PROJECT_DIR$/models/delayedPayment.js" />
+        <option value="$PROJECT_DIR$/_nocommit/test.js" />
+        <option value="$PROJECT_DIR$/local.env" />
+        <option value="$PROJECT_DIR$/middleware/access/sign.js" />
+        <option value="$PROJECT_DIR$/actions/api/payment/delayed/schedule.js" />
+        <option value="$PROJECT_DIR$/services/validation.js" />
+        <option value="$PROJECT_DIR$/test/actions/api/payment/delayed/schedule.js" />
+        <option value="$PROJECT_DIR$/actions/api/subscription/update.js" />
+        <option value="$PROJECT_DIR$/api/internal_api.js" />
+        <option value="$PROJECT_DIR$/_nocommit/fastTest.js" />
+        <option value="$PROJECT_DIR$/services/payment.js" />
+        <option value="$PROJECT_DIR$/test/actions/api/payment/recurring.js" />
+        <option value="$PROJECT_DIR$/test/actions/api/payment/oneClick.js" />
+        <option value="$PROJECT_DIR$/services/order.js" />
+        <option value="$PROJECT_DIR$/_nocommit/vladic.js" />
+        <option value="$PROJECT_DIR$/actions/api/subscription/list.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/api/api.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeJsMochaPackageDirSetting">
+    <data>D:\01. DEV\01. Projects\01. 7pay\02. 7pay-order-service\02. src\node_modules\mocha</data>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="1932" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JSCheckFunctionSignatures</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7pay-order-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SignaturingService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="recentsLimit" value="5" />
+    <property name="JavaScriptLanguageLevel" value="ES6" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/01. DEV/01. Projects/01. 7pay/02. 7-pay-order-service/02. src/actions/api/orders/list.js" />
+    <property name="JavaScriptPreferStrict" value="true" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
+    <property name="nodejs.mocha.node_interpreter_path" value="C:\Program Files (x86)\nodejs\node.exe" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="D:\01. DEV\01. Projects\01. 7pay\02. 7-pay-order-service\02. src\node_modules\mocha" />
+    <property name="javascript.nodejs.core.library.configured.version" value="6.9.1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="298" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="307" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="311" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="923" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="399" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="397" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="401" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="642" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="editor.config.accepted" value="true" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\01. DEV\01. Projects\01. 7pay\02. 7-pay-order-service\02. src\api" />
+      <recent name="D:\01. DEV\01. Projects\01. 7pay\02. 7-pay-order-service\02. src\test\actions\api\payment\delayed" />
+      <recent name="D:\01. DEV\01. Projects\01. 7pay\02. 7-pay-order-service\02. src\test\tasks\delayedPayment" />
+      <recent name="D:\01. DEV\01. Projects\01. 7pay\02. 7-pay-order-service\02. src\test\tasks\delayed" />
+      <recent name="D:\01. DEV\01. Projects\01. 7pay\02. 7-pay-order-service\02. src\test\actions\api\payment" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\01. DEV\01. Projects\01. 7pay\02. 7-pay-order-service\02. src\test\actions\api\payment\delayed" />
+      <recent name="D:\01. DEV\01. Projects\01. 7pay\02. 7-pay-order-service\02. src\test\actions\api\payment\schedule" />
+      <recent name="D:\01. DEV\01. Projects\01. 7pay\02. 7-pay-order-service\02. src\actions\api" />
+      <recent name="D:\01. DEV\01. Projects\01. 7pay\02. 7-pay-order-service\02. src\actions\sdk" />
+      <recent name="D:\01. DEV\01. Projects\01. 7pay\02. 7-pay-order-service\02. src\actions\api\payment\delayed" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.start">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files (x86)/nodejs/node" path-to-js-file="app.js" node-parameters="--harmony" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
+      <node-js-remote-debug />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeunitConfigurationType" factoryName="Nodeunit">
+      <setting name="nodePath" value="C:/Program Files (x86)/nodejs/node" />
+      <envs />
+      <setting name="nodeunitModuleDir" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="testType" value="JS_FILE" />
+      <setting name="jsFile" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <pass-parent-env-vars value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter />
+      <node-options>--harmony</node-options>
+      <working-directory>$PROJECT_DIR$/test</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="start" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
+      <profiling v8-profiler-path="" />
+      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
+        <option name="envVars">
+          <list />
+        </option>
+        <option name="extraHosts">
+          <list />
+        </option>
+        <option name="links">
+          <list />
+        </option>
+        <option name="networkDisabled" value="false" />
+        <option name="networkMode" value="bridge" />
+        <option name="portBindings">
+          <list />
+        </option>
+        <option name="publishAllPorts" value="false" />
+        <option name="version" value="1" />
+        <option name="volumeBindings">
+          <list />
+        </option>
+      </EXTENSION>
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSProfilingRunConfigurationExtension">
+        <profiling v8-profiler-path="" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.start" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb0e94eb-7be8-4bf9-a133-f8c3c231b0d7" name="Default" comment="" />
+      <changelist id="6630c9d7-93e7-46fc-b4a5-63c4fc1f3ee9" name="New changelist" comment="" />
+      <created>1431071819865</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1431071819865</updated>
+      <workItem from="1479802200175" duration="6336000" />
+      <workItem from="1479979200404" duration="7320000" />
+      <workItem from="1480344211410" duration="618000" />
+      <workItem from="1480418827281" duration="58000" />
+      <workItem from="1480431066398" duration="1225000" />
+      <workItem from="1481017163900" duration="11552000" />
+      <workItem from="1481104607312" duration="9828000" />
+      <workItem from="1481188173898" duration="3127000" />
+      <workItem from="1481277846650" duration="612000" />
+      <workItem from="1481622174619" duration="2618000" />
+      <workItem from="1481716426200" duration="653000" />
+      <workItem from="1482492236946" duration="5385000" />
+      <workItem from="1482746167987" duration="638000" />
+      <workItem from="1482843490767" duration="3374000" />
+      <workItem from="1482925515474" duration="1247000" />
+      <workItem from="1482932539684" duration="1438000" />
+      <workItem from="1483001241424" duration="607000" />
+      <workItem from="1483537699028" duration="3750000" />
+      <workItem from="1484046744680" duration="210000" />
+      <workItem from="1484141154563" duration="1357000" />
+      <workItem from="1484228375635" duration="659000" />
+      <workItem from="1484299491562" duration="6292000" />
+      <workItem from="1484554596151" duration="1240000" />
+      <workItem from="1484576523442" duration="1284000" />
+      <workItem from="1484638789945" duration="805000" />
+      <workItem from="1484918507814" duration="1026000" />
+      <workItem from="1485007295200" duration="1226000" />
+      <workItem from="1485169673081" duration="5032000" />
+      <workItem from="1485259518881" duration="4435000" />
+      <workItem from="1485344858808" duration="115000" />
+      <workItem from="1485422058124" duration="2435000" />
+      <workItem from="1485510341489" duration="2501000" />
+      <workItem from="1485786691953" duration="1595000" />
+      <workItem from="1485790636167" duration="1114000" />
+      <workItem from="1485853747365" duration="8781000" />
+      <workItem from="1485952939728" duration="2028000" />
+      <workItem from="1486034637223" duration="247000" />
+      <workItem from="1486388790237" duration="482000" />
+      <workItem from="1486478770925" duration="663000" />
+      <workItem from="1486552900645" duration="2287000" />
+      <workItem from="1486641747289" duration="2841000" />
+      <workItem from="1486990077989" duration="1575000" />
+      <workItem from="1486994270736" duration="3022000" />
+      <workItem from="1487074079161" duration="12000" />
+      <workItem from="1487592990943" duration="2043000" />
+      <workItem from="1487665504589" duration="28659000" />
+      <workItem from="1487750399577" duration="13694000" />
+      <workItem from="1487927093375" duration="9832000" />
+      <workItem from="1488167527687" duration="58000" />
+      <workItem from="1488167611227" duration="20000" />
+      <workItem from="1488167723990" duration="737000" />
+      <workItem from="1488168481742" duration="70411000" />
+      <workItem from="1488788052081" duration="4108000" />
+      <workItem from="1488923574744" duration="20000" />
+      <workItem from="1488959184418" duration="1359000" />
+      <workItem from="1489074576599" duration="2088000" />
+      <workItem from="1489137516410" duration="4963000" />
+      <workItem from="1489394912301" duration="5899000" />
+      <workItem from="1489482205197" duration="1949000" />
+      <workItem from="1489564660910" duration="1804000" />
+      <workItem from="1489674481777" duration="4946000" />
+      <workItem from="1490005653836" duration="1835000" />
+      <workItem from="1490084938388" duration="7835000" />
+      <workItem from="1490254557252" duration="8091000" />
+      <workItem from="1490363662726" duration="657000" />
+      <workItem from="1490369170230" duration="758000" />
+      <workItem from="1490607108250" duration="1804000" />
+      <workItem from="1490614358788" duration="9054000" />
+      <workItem from="1490704269469" duration="1455000" />
+      <workItem from="1490971723715" duration="2121000" />
+      <workItem from="1491213315278" duration="4891000" />
+      <workItem from="1491314561049" duration="2101000" />
+      <workItem from="1491380412824" duration="109000" />
+      <workItem from="1492516450142" duration="11317000" />
+      <workItem from="1492778683801" duration="3341000" />
+      <workItem from="1493215243051" duration="3228000" />
+      <workItem from="1493287524710" duration="2459000" />
+      <workItem from="1493459088742" duration="3322000" />
+      <workItem from="1493984106398" duration="10732000" />
+      <workItem from="1494585200596" duration="4547000" />
+      <workItem from="1494609765423" duration="1068000" />
+      <workItem from="1494852451982" duration="11791000" />
+      <workItem from="1495102990182" duration="5000" />
+      <workItem from="1495103151421" duration="4581000" />
+    </task>
+    <task id="LOCAL-00346" summary="[+] Add products validation to /api/payment/refund route">
+      <created>1472737796715</created>
+      <option name="number" value="00346" />
+      <option name="presentableId" value="LOCAL-00346" />
+      <option name="project" value="LOCAL" />
+      <updated>1472737796715</updated>
+    </task>
+    <task id="LOCAL-00347" summary="[+] Add restriction by retries for orderNotifier">
+      <created>1472821820838</created>
+      <option name="number" value="00347" />
+      <option name="presentableId" value="LOCAL-00347" />
+      <option name="project" value="LOCAL" />
+      <updated>1472821820838</updated>
+    </task>
+    <task id="LOCAL-00348" summary="[-] Remove env variable">
+      <created>1472823812381</created>
+      <option name="number" value="00348" />
+      <option name="presentableId" value="LOCAL-00348" />
+      <option name="project" value="LOCAL" />
+      <updated>1472823812381</updated>
+    </task>
+    <task id="LOCAL-00349" summary="[*] Change retry strategy">
+      <created>1473155628407</created>
+      <option name="number" value="00349" />
+      <option name="presentableId" value="LOCAL-00349" />
+      <option name="project" value="LOCAL" />
+      <updated>1473155628407</updated>
+    </task>
+    <task id="LOCAL-00350" summary="[+] Add sdk/report/transition route">
+      <created>1473429141613</created>
+      <option name="number" value="00350" />
+      <option name="presentableId" value="LOCAL-00350" />
+      <option name="project" value="LOCAL" />
+      <updated>1473429141613</updated>
+    </task>
+    <task id="LOCAL-00351" summary="[*] Add specific for transition report route service&#10;[*] Revert transitionReport service">
+      <created>1473429596525</created>
+      <option name="number" value="00351" />
+      <option name="presentableId" value="LOCAL-00351" />
+      <option name="project" value="LOCAL" />
+      <updated>1473429596525</updated>
+    </task>
+    <task id="LOCAL-00352" summary="[*] Fix bug related with isReportCreated check">
+      <created>1473673796199</created>
+      <option name="number" value="00352" />
+      <option name="presentableId" value="LOCAL-00352" />
+      <option name="project" value="LOCAL" />
+      <updated>1473673796199</updated>
+    </task>
+    <task id="LOCAL-00353" summary="[*] Hot fix">
+      <created>1473675178132</created>
+      <option name="number" value="00353" />
+      <option name="presentableId" value="LOCAL-00353" />
+      <option name="project" value="LOCAL" />
+      <updated>1473675178132</updated>
+    </task>
+    <task id="LOCAL-00354" summary="[*] Change date range in order history checking">
+      <created>1473677822554</created>
+      <option name="number" value="00354" />
+      <option name="presentableId" value="LOCAL-00354" />
+      <option name="project" value="LOCAL" />
+      <updated>1473677822555</updated>
+    </task>
+    <task id="LOCAL-00355" summary="[*] Change report check exiting report date and name generation date">
+      <created>1473682823805</created>
+      <option name="number" value="00355" />
+      <option name="presentableId" value="LOCAL-00355" />
+      <option name="project" value="LOCAL" />
+      <updated>1473682823805</updated>
+    </task>
+    <task id="LOCAL-00356" summary="[*] Remove transitionReport duplication">
+      <created>1473936342336</created>
+      <option name="number" value="00356" />
+      <option name="presentableId" value="LOCAL-00356" />
+      <option name="project" value="LOCAL" />
+      <updated>1473936342371</updated>
+    </task>
+    <task id="LOCAL-00357" summary="[*] Refactor orderNotifier to avoid excess execution">
+      <created>1474019400941</created>
+      <option name="number" value="00357" />
+      <option name="presentableId" value="LOCAL-00357" />
+      <option name="project" value="LOCAL" />
+      <updated>1474019400941</updated>
+    </task>
+    <task id="LOCAL-00358" summary="[*] Refactor orderNotifier to avoid excess execution">
+      <created>1474019465484</created>
+      <option name="number" value="00358" />
+      <option name="presentableId" value="LOCAL-00358" />
+      <option name="project" value="LOCAL" />
+      <updated>1474019465484</updated>
+    </task>
+    <task id="LOCAL-00359" summary="[*] Refactor orderNotifier to avoid excess execution">
+      <created>1474020002158</created>
+      <option name="number" value="00359" />
+      <option name="presentableId" value="LOCAL-00359" />
+      <option name="project" value="LOCAL" />
+      <updated>1474020002158</updated>
+    </task>
+    <task id="LOCAL-00360" summary="[*] Refactor orderNotifier to avoid excess execution">
+      <created>1474023106639</created>
+      <option name="number" value="00360" />
+      <option name="presentableId" value="LOCAL-00360" />
+      <option name="project" value="LOCAL" />
+      <updated>1474023106639</updated>
+    </task>
+    <task id="LOCAL-00361" summary="[*] Change behavior in case of order not exist">
+      <created>1474038164947</created>
+      <option name="number" value="00361" />
+      <option name="presentableId" value="LOCAL-00361" />
+      <option name="project" value="LOCAL" />
+      <updated>1474038164948</updated>
+    </task>
+    <task id="LOCAL-00362" summary="[*] Fix bug related with notifications creation without options">
+      <created>1476974377885</created>
+      <option name="number" value="00362" />
+      <option name="presentableId" value="LOCAL-00362" />
+      <option name="project" value="LOCAL" />
+      <updated>1476974377900</updated>
+    </task>
+    <task id="LOCAL-00363" summary="[*] Fix bug related with notificationsStartAt calculation">
+      <created>1476975469794</created>
+      <option name="number" value="00363" />
+      <option name="presentableId" value="LOCAL-00363" />
+      <option name="project" value="LOCAL" />
+      <updated>1476975469794</updated>
+    </task>
+    <task id="LOCAL-00364" summary="[*] Change entity populating for functionall tests">
+      <created>1477488262054</created>
+      <option name="number" value="00364" />
+      <option name="presentableId" value="LOCAL-00364" />
+      <option name="project" value="LOCAL" />
+      <updated>1477488262054</updated>
+    </task>
+    <task id="LOCAL-00365" summary="[*] Remove functional tests">
+      <created>1477489393406</created>
+      <option name="number" value="00365" />
+      <option name="presentableId" value="LOCAL-00365" />
+      <option name="project" value="LOCAL" />
+      <updated>1477489393406</updated>
+    </task>
+    <task id="LOCAL-00366" summary="[*] Remove pagination limit from env">
+      <created>1478596555493</created>
+      <option name="number" value="00366" />
+      <option name="presentableId" value="LOCAL-00366" />
+      <option name="project" value="LOCAL" />
+      <updated>1478596555509</updated>
+    </task>
+    <task id="LOCAL-00367" summary="[*] Remove pagination limit from env">
+      <created>1478596622113</created>
+      <option name="number" value="00367" />
+      <option name="presentableId" value="LOCAL-00367" />
+      <option name="project" value="LOCAL" />
+      <updated>1478596622113</updated>
+    </task>
+    <task id="LOCAL-00368" summary="[-] Remove ruleId as possible subscription update parameter">
+      <created>1480083452277</created>
+      <option name="number" value="00368" />
+      <option name="presentableId" value="LOCAL-00368" />
+      <option name="project" value="LOCAL" />
+      <updated>1480083452277</updated>
+    </task>
+    <task id="LOCAL-00369" summary="[*] Merge code base for internal and external voucher check routes&#10;[*] Update unit tests">
+      <created>1481119714902</created>
+      <option name="number" value="00369" />
+      <option name="presentableId" value="LOCAL-00369" />
+      <option name="project" value="LOCAL" />
+      <updated>1481119714902</updated>
+    </task>
+    <task id="LOCAL-00370" summary="[*] Merge code base for internal and external voucher check routes&#10;[*] Update unit tests">
+      <created>1481119748518</created>
+      <option name="number" value="00370" />
+      <option name="presentableId" value="LOCAL-00370" />
+      <option name="project" value="LOCAL" />
+      <updated>1481119748518</updated>
+    </task>
+    <task id="LOCAL-00371" summary="[*] Merge code base for internal and external voucher check routes&#10;[*] Update unit tests">
+      <created>1481119771423</created>
+      <option name="number" value="00371" />
+      <option name="presentableId" value="LOCAL-00371" />
+      <option name="project" value="LOCAL" />
+      <updated>1481119771423</updated>
+    </task>
+    <task id="LOCAL-00372" summary="[+] Add uid to authorise paypal transaction request">
+      <created>1485184368724</created>
+      <option name="number" value="00372" />
+      <option name="presentableId" value="LOCAL-00372" />
+      <option name="project" value="LOCAL" />
+      <updated>1485184368724</updated>
+    </task>
+    <task id="LOCAL-00373" summary="[+] Add product voucher support">
+      <created>1485422206275</created>
+      <option name="number" value="00373" />
+      <option name="presentableId" value="LOCAL-00373" />
+      <option name="project" value="LOCAL" />
+      <updated>1485422206278</updated>
+    </task>
+    <task id="LOCAL-00374" summary="WIP">
+      <created>1485866604379</created>
+      <option name="number" value="00374" />
+      <option name="presentableId" value="LOCAL-00374" />
+      <option name="project" value="LOCAL" />
+      <updated>1485866604380</updated>
+    </task>
+    <task id="LOCAL-00375" summary="[+] Add delayed subscription functionality">
+      <created>1487857766337</created>
+      <option name="number" value="00375" />
+      <option name="presentableId" value="LOCAL-00375" />
+      <option name="project" value="LOCAL" />
+      <updated>1487857766337</updated>
+    </task>
+    <task id="LOCAL-00376" summary="[+] Add delayed subscription functionality&#10;">
+      <created>1487857854592</created>
+      <option name="number" value="00376" />
+      <option name="presentableId" value="LOCAL-00376" />
+      <option name="project" value="LOCAL" />
+      <updated>1487857854592</updated>
+    </task>
+    <task id="LOCAL-00377" summary="WIP">
+      <created>1487858091852</created>
+      <option name="number" value="00377" />
+      <option name="presentableId" value="LOCAL-00377" />
+      <option name="project" value="LOCAL" />
+      <updated>1487858091852</updated>
+    </task>
+    <task id="LOCAL-00378" summary="Revert: Revert &quot;PAYMENT-1313: Implement new product provision approach&quot;">
+      <created>1487858722509</created>
+      <option name="number" value="00378" />
+      <option name="presentableId" value="LOCAL-00378" />
+      <option name="project" value="LOCAL" />
+      <updated>1487858722509</updated>
+    </task>
+    <task id="LOCAL-00379" summary="[*] Finish delayed payment implementation">
+      <created>1488465910798</created>
+      <option name="number" value="00379" />
+      <option name="presentableId" value="LOCAL-00379" />
+      <option name="project" value="LOCAL" />
+      <updated>1488465910799</updated>
+    </task>
+    <task id="LOCAL-00380" summary="[*] Remove update route">
+      <created>1488465965723</created>
+      <option name="number" value="00380" />
+      <option name="presentableId" value="LOCAL-00380" />
+      <option name="project" value="LOCAL" />
+      <updated>1488465965723</updated>
+    </task>
+    <task id="LOCAL-00381" summary="[*] Remove order provisioning tasks">
+      <created>1488536039476</created>
+      <option name="number" value="00381" />
+      <option name="presentableId" value="LOCAL-00381" />
+      <option name="project" value="LOCAL" />
+      <updated>1488536039476</updated>
+    </task>
+    <task id="LOCAL-00382" summary="[*] Small fix">
+      <created>1488544309372</created>
+      <option name="number" value="00382" />
+      <option name="presentableId" value="LOCAL-00382" />
+      <option name="project" value="LOCAL" />
+      <updated>1488544309372</updated>
+    </task>
+    <task id="LOCAL-00383" summary="[*] Remove unused code">
+      <created>1488544718833</created>
+      <option name="number" value="00383" />
+      <option name="presentableId" value="LOCAL-00383" />
+      <option name="project" value="LOCAL" />
+      <updated>1488544718833</updated>
+    </task>
+    <task id="LOCAL-00384" summary="[*] Add product provisioning test">
+      <created>1488545838858</created>
+      <option name="number" value="00384" />
+      <option name="presentableId" value="LOCAL-00384" />
+      <option name="project" value="LOCAL" />
+      <updated>1488545838858</updated>
+    </task>
+    <task id="LOCAL-00385" summary="[*] Add isPaymentRequired flag to subscription renew route">
+      <created>1488800687936</created>
+      <option name="number" value="00385" />
+      <option name="presentableId" value="LOCAL-00385" />
+      <option name="project" value="LOCAL" />
+      <updated>1488800687936</updated>
+    </task>
+    <task id="LOCAL-00386" summary="[*] Change default value for delayed payment authorisation&#10;[+] Add minimum value for delayedPaymentAmount">
+      <created>1491316025472</created>
+      <option name="number" value="00386" />
+      <option name="presentableId" value="LOCAL-00386" />
+      <option name="project" value="LOCAL" />
+      <updated>1491316025473</updated>
+    </task>
+    <task id="LOCAL-00387" summary="PAYMENT-1424:&#10;[+] Add optional parameter orderNumber&#10;[+] Add optional parameter nextBillingDate">
+      <created>1492777310357</created>
+      <option name="number" value="00387" />
+      <option name="presentableId" value="LOCAL-00387" />
+      <option name="project" value="LOCAL" />
+      <updated>1492777310357</updated>
+    </task>
+    <task id="LOCAL-00388" summary="PAYMENT-1424:&#10;[+] Add optional parameter orderNumber&#10;[+] Add optional parameter nextBillingDate">
+      <created>1492777327202</created>
+      <option name="number" value="00388" />
+      <option name="presentableId" value="LOCAL-00388" />
+      <option name="project" value="LOCAL" />
+      <updated>1492777327203</updated>
+    </task>
+    <task id="LOCAL-00389" summary="PAYMENT-1424:&#10;[+] Add internal update">
+      <created>1492780536276</created>
+      <option name="number" value="00389" />
+      <option name="presentableId" value="LOCAL-00389" />
+      <option name="project" value="LOCAL" />
+      <updated>1492780536277</updated>
+    </task>
+    <task id="LOCAL-00390" summary="PAYMENT-1424:&#10;[+] Add internal update">
+      <created>1492780962228</created>
+      <option name="number" value="00390" />
+      <option name="presentableId" value="LOCAL-00390" />
+      <option name="project" value="LOCAL" />
+      <updated>1492780962228</updated>
+    </task>
+    <task id="LOCAL-00391" summary="Revert: PAYMENT-1424: [+] Add internal update">
+      <created>1493288008745</created>
+      <option name="number" value="00391" />
+      <option name="presentableId" value="LOCAL-00391" />
+      <option name="project" value="LOCAL" />
+      <updated>1493288008745</updated>
+    </task>
+    <task id="LOCAL-00392" summary="Revert: Revert: PAYMENT-1424: [+] Add internal update">
+      <created>1493365548292</created>
+      <option name="number" value="00392" />
+      <option name="presentableId" value="LOCAL-00392" />
+      <option name="project" value="LOCAL" />
+      <updated>1493365548292</updated>
+    </task>
+    <task id="LOCAL-00393" summary="PAYMENT-1464:&#10;[*] Store paymentToken from parent order in case order fully covered by voucher">
+      <created>1494591299229</created>
+      <option name="number" value="00393" />
+      <option name="presentableId" value="LOCAL-00393" />
+      <option name="project" value="LOCAL" />
+      <updated>1494591299230</updated>
+    </task>
+    <task id="LOCAL-00394" summary="PAYMENT-1418-1:&#10;Fix voucher apply process">
+      <created>1494610442411</created>
+      <option name="number" value="00394" />
+      <option name="presentableId" value="LOCAL-00394" />
+      <option name="project" value="LOCAL" />
+      <updated>1494610442411</updated>
+    </task>
+    <option name="localTasksCounter" value="395" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UnitTest - 2017.05.12 at 14h 44m 25s.xml">
+      <configuration name="UnitTest" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="UnitTest - 2017.05.12 at 14h 44m 42s.xml">
+      <configuration name="UnitTest" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="UnitTest - 2017.05.12 at 14h 59m 42s.xml">
+      <configuration name="UnitTest" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="UnitTest - 2017.05.12 at 15h 00m 12s.xml">
+      <configuration name="UnitTest" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="UnitTest - 2017.05.12 at 15h 03m 38s.xml">
+      <configuration name="UnitTest" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="UnitTest - 2017.05.12 at 15h 05m 11s.xml">
+      <configuration name="UnitTest" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="UnitTest - 2017.05.12 at 15h 08m 54s.xml">
+      <configuration name="UnitTest" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="UnitTest - 2017.05.12 at 15h 11m 13s.xml">
+      <configuration name="UnitTest" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="UnitTest - 2017.05.12 at 15h 16m 26s.xml">
+      <configuration name="UnitTest" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="UnitTest - 2017.05.12 at 20h 36m 14s.xml">
+      <configuration name="UnitTest" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="363342000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="0" width="1932" height="1038" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21007958" sideWeight="0.5699234" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854405" sideWeight="0.5532139" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20073763" sideWeight="0.43007663" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5063731" sideWeight="0.40887225" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45246276" sideWeight="0.5525095" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38844848" sideWeight="0.56221" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6460481" sideWeight="0.5505077" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36426118" sideWeight="0.6157739" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5017182" sideWeight="0.59112775" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32156563" sideWeight="0.4752371" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847276" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854405" sideWeight="0.5532139" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3218391" sideWeight="0.4752371" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33045977" sideWeight="0.43203372" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27203065" sideWeight="0.58219177" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3151341" sideWeight="0.56322443" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23084292" sideWeight="0.618019" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19915701" sideWeight="0.5699234" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20073763" sideWeight="0.43007663" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33045977" sideWeight="0.5679663" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38793105" sideWeight="0.5937829" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="LONG_EDGES_VISIBLE" value="true" />
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="LONG_EDGES_VISIBLE" value="true" />
+    <option name="BEK_SORT_TYPE" value="1" />
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[*] Remove functional tests" />
+    <MESSAGE value="[*] Remove pagination limit from env" />
+    <MESSAGE value="[-] Remove ruleId as possible update parameter" />
+    <MESSAGE value="[-] Remove ruleId as possible subscription update parameter" />
+    <MESSAGE value="[*] Merge code base for internal and external voucher check routes&#10;[*] Update unit tests" />
+    <MESSAGE value="[+] Add uid to authorise paypal transaction request" />
+    <MESSAGE value="[+] Add product voucher support" />
+    <MESSAGE value="[+] Add delayed subscription functionality" />
+    <MESSAGE value="[+] Add delayed subscription functionality&#10;" />
+    <MESSAGE value="WIP" />
+    <MESSAGE value="Revert: Revert &quot;PAYMENT-1313: Implement new product provision approach&quot;" />
+    <MESSAGE value="[*] Finish delayed payment implementation" />
+    <MESSAGE value="[*] Remove update route" />
+    <MESSAGE value="[*] Remove order provisioning tasks" />
+    <MESSAGE value="[*] Small fix" />
+    <MESSAGE value="[*] Remove unused code" />
+    <MESSAGE value="[*] Add product provisioning test" />
+    <MESSAGE value="[*] Add isPaymentRequired flag to subscription renew route" />
+    <MESSAGE value="[*] Change default value for delayed payment authorisation&#10;[+] Add minimum value for delayedPaymentAmount" />
+    <MESSAGE value="PAYMENT-1424:&#10;[+] Add optional parameter orderNumber&#10;[+] Add optional parameter nextBillingDate" />
+    <MESSAGE value="PAYMENT-1424:&#10;[+] Add internal update" />
+    <MESSAGE value="Revert: PAYMENT-1424: [+] Add internal update" />
+    <MESSAGE value="Revert: Revert: PAYMENT-1424: [+] Add internal update" />
+    <MESSAGE value="PAYMENT-1464:&#10;[*] Store paymentToken from parent order in case order fully covered by voucher" />
+    <MESSAGE value="PAYMENT-1418-1:&#10;Fix voucher apply process" />
+    <option name="LAST_COMMIT_MESSAGE" value="PAYMENT-1418-1:&#10;Fix voucher apply process" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test/actions/sdk/voucher/check.js</url>
+          <line>186</line>
+          <option name="timeStamp" value="1131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/api/api.js</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="1358" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/api/api.js</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="1361" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog>
+          <selected-grouping-rules>
+            <grouping-rule id="by-file" />
+          </selected-grouping-rules>
+        </breakpoints-dialog>
+      </breakpoints-dialog>
+      <option name="time" value="1362" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="mocha-javascript-test-runner">
+        <watch expression="!~constrKeys.indexOf(key)" language="JavaScript" />
+        <watch expression="product.base_price.amount / 100" language="JavaScript" />
+        <watch expression="product.base_price.amount" language="JavaScript" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/middleware/access/sign.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware/entityConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_nocommit/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_nocommit/testDB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/api/subscription/update.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1550">
+          <caret line="62" column="32" lean-forward="false" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/api/orders/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="93" column="34" lean-forward="true" selection-start-line="93" selection-start-column="34" selection-end-line="93" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/taskRunner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/validator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="895">
+          <caret line="121" column="19" lean-forward="true" selection-start-line="121" selection-start-column="19" selection-end-line="121" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/notifyAccounting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testUtils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="127" column="22" lean-forward="true" selection-start-line="127" selection-start-column="22" selection-end-line="127" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/actions/api/billpay/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="39" column="15" lean-forward="true" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/refund.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/requestOperation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/session.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/factory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7175">
+          <caret line="287" column="0" lean-forward="false" selection-start-line="287" selection-start-column="0" selection-end-line="287" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.jshintrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/actions/api/payment/oneClick.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12075">
+          <caret line="483" column="32" lean-forward="false" selection-start-line="483" selection-start-column="32" selection-end-line="483" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/actions/api/payment/recurring.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11075">
+          <caret line="510" column="18" lean-forward="false" selection-start-line="510" selection-start-column="18" selection-end-line="510" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/api/payment/recurring.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" column="60" lean-forward="false" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/validation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7300">
+          <caret line="292" column="31" lean-forward="false" selection-start-line="292" selection-start-column="31" selection-end-line="292" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware/action.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_nocommit/fastTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_nocommit/vladic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/wirecard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2025">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/internal_api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="55" column="13" lean-forward="false" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/api/payment/capture.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="55" column="48" lean-forward="false" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/sdk/products/get.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="67" column="53" lean-forward="true" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/api/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="26" column="52" lean-forward="false" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1750">
+          <caret line="70" column="27" lean-forward="false" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/api/payment/authorize.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" column="62" lean-forward="false" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/payment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1550">
+          <caret line="62" column="78" lean-forward="false" selection-start-line="62" selection-start-column="78" selection-end-line="62" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/internal/payment/callback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1625">
+          <caret line="65" column="43" lean-forward="false" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="790">
+          <caret line="191" column="72" lean-forward="false" selection-start-line="191" selection-start-column="24" selection-end-line="191" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/orderProductProvision.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="41" column="50" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/result.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3925">
+          <caret line="157" column="53" lean-forward="false" selection-start-line="157" selection-start-column="53" selection-end-line="157" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/api/subscription/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sign.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware/handler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="61" lean-forward="false" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87">
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/6.9.1/core-modules/crypto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="51" column="28" lean-forward="false" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/koa/lib/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

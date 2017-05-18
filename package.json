@@ -1,0 +1,14 @@
+{
+  "name": "7pay-signature-service",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "koa": "^1.1.2",
+    "koa-cors": "0.0.16",
+    "koa-router": "^5.2.3",
+    "koa-bodyparser": "^2.5.0"
+  }
+}
